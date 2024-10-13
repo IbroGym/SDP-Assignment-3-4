@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class HomeMediator {
+interface HomeMediator {
+    void collectData(String data);
+    void printReport();
 }
